@@ -93,7 +93,7 @@
     top: 7rem;
   }
 }
-.header .toggleNavbar .ison {
+.header .toggleNavbar .icon {
   font-size: 25px;
   color: var(--PrimaryColor);
 }
