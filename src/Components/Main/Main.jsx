@@ -1,6 +1,7 @@
 import "./main.css";
+import { useEffect } from "react";
 import { HiOutlineLocationMarker } from "react-icons/hi";
-import {HiOutlineClipboardCheck} from 'react-icons/hi'
+import { HiOutlineClipboardCheck } from "react-icons/hi";
 import img1 from "../../assets/img1.jpg";
 import img2 from "../../assets/img2.jpg";
 import img3 from "../../assets/img3.jpg";
@@ -20,7 +21,7 @@ const Data = [
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sagittis sollicitudin vehicula. Fusce tristique tempor egestas. Suspendisse potenti. Suspendisse nec nulla et neque hendrerit ornare. Pellentesque et scelerisque leo.",
   },
-   {
+  {
     id: 2,
     imgSrc: img2,
     destTitlte: "Bali Island",
@@ -82,17 +83,27 @@ const Data = [
   },
 ];
 
+
+import Aos from 'aos'
+import 'aos/dist/aos.css'
+
 function Main() {
+
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
+
+
   return (
     <section className="main container section">
       <div className="secTitle">
-        <h3 className="title">Most visited destinations</h3>
+        <h3 data-aos="fade-right" className="title">Most visited destinations</h3>
       </div>
 
       <div className="secContent grid">
         {Data.map((data) => {
           return (
-            <div key={data.id} className="singleDestination">
+            <div key={data.id} data-aos="fade-up" className="singleDestination">
               <div className="imageDiv">
                 <img src={data.imgSrc} alt={data.destTitlte} />
               </div>
