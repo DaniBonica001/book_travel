@@ -26,44 +26,44 @@
   --cardBG: rgb(225, 225, 235);
 }
 
-Html{
+Html {
   scroll-behavior: smooth;
 }
 
-a{
+a {
   text-decoration: none;
 }
 
-li{
+li {
   list-style: none;
 }
 
-.section{
+.section {
   padding: 4rem 0 2rem;
 }
 
-.container{
+.container {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
 }
 
-.icon{
+.icon {
   font-size: 2rem;
   cursor: pointer;
 }
 
-.flex{
+.flex {
   display: flex;
   align-items: center;
 }
 
-.grid{
+.grid {
   display: grid;
   align-items: center;
 }
 
-.btn{
-  padding: .6rem 1.5rem;
+.btn {
+  padding: 0.6rem 1.5rem;
   background: var(--gradientColor);
   border-radius: 3rem;
   border: none;
@@ -71,25 +71,42 @@ li{
   cursor: pointer;
 }
 
-.btn a{
+.btn a {
   color: var(--whiteColor);
   font-weight: 500;
 }
 
-.btn:hover{
+.btn:hover {
   background: var(--SecondaryColor);
 }
 
-img,video{
+img,
+video {
   width: 100%;
   height: auto;
 }
 
-input{
+input {
   font-size: 100%;
 }
 
-body{
+body {
   background: var(--boodyColor);
 }
 
+@media screen and(min-width:1240px) {
+  .container {
+    width: 80% !important;
+    margin: auto !important;
+  }
+
+  .section {
+    padding: 6rem 0 4rem;
+  }
+}
+
+@media screen and(min-width:2560px) {
+  body {
+    zoom: 1.7;
+  }
+}
