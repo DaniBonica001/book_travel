@@ -1,4 +1,5 @@
 import "./footer.css";
+import video from '../../assets/video2.mp4'
 import { useEffect } from "react";
 import { FiSend } from "react-icons/fi";
 import { MdOutlineTravelExplore } from "react-icons/md";
@@ -18,7 +19,7 @@ function Footer() {
   return (
     <section className="footer">
       <div className="videoDiv">
-        <video src="" loop autoPlay muted type="video/mp4"></video>
+        <video src={video} loop autoPlay muted type="video/mp4"></video>
       </div>
 
       <div className="secContent container">
