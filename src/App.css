@@ -94,7 +94,7 @@ body {
   background: var(--boodyColor);
 }
 
-@media screen and(min-width:1240px) {
+@media screen and (min-width:1240px) {
   .container {
     width: 80% !important;
     margin: auto !important;
@@ -105,7 +105,7 @@ body {
   }
 }
 
-@media screen and(min-width:2560px) {
+@media screen and (min-width:2560px) {
   body {
     zoom: 1.7;
   }

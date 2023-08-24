@@ -158,7 +158,7 @@
   }
 }
 
-@media screen and(min-width:500px) {
+@media screen and (min-width: 500px) {
   .title{
     font-size: 1.5rem;
     &::after{
@@ -176,7 +176,7 @@
   
 }
 
-@media screen and(min-width:840px) {
+@media screen and (min-width: 840px) {
   .secContent{
     grid-template-columns: repeat(3,1fr);
     .singleDestination{

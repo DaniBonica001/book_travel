@@ -218,7 +218,7 @@
   }
 }
 
-@media screen and(min-width:500px) {
+@media screen and (min-width: 500px) {
   .footer {
     .secContent {
       .footerCard {
@@ -241,7 +241,7 @@
   }
 }
 
-@media screen and(min-width:660px) {
+@media screen and (min-width: 660px) {
   .footer {
     .secContent {
       .contactDiv {
@@ -266,7 +266,7 @@
   }
 }
 
-@media screen and(min-width:840px) {
+@media screen and (min-width: 840px) {
   .footer {
     padding: 5rem 0;
     .secContent {
@@ -281,7 +281,7 @@
   }
 }
 
-@media screen and(min-width:1024px) {
+@media screen and (min-width: 1024px) {
   .footer {
     .secContent {
       .footerCard {
@@ -294,7 +294,7 @@
           }
 
           .footerSocials {
-            column-gap: 0.5rem;
+            column-gap: .5rem;
             .icon {
               color: var(--textColor);
               font-size: 25px;
